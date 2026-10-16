@@ -47,6 +47,6 @@ jobs:
       - name: Upload APK
         uses: actions/upload-artifact@v4
         with:
-          name: UniversalACRemote-v1.5.15-run-${{ github.run_number }}
+          name: ACRemote-v1.0.0-run-${{ github.run_number }}
           path: verified-apk/*
           if-no-files-found: error
